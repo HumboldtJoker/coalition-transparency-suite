@@ -1,0 +1,164 @@
+{
+  "name": "coalition-transparency-suite",
+  "version": "1.0.0",
+  "owner": {
+    "name": "HumboldtJoker",
+    "email": "transparency@coalition.local",
+    "url": "https://github.com/HumboldtJoker"
+  },
+  "description": "Government transparency investigation skills - surveillance technology that points cameras UP the power hierarchy to monitor those who hold power, not citizens",
+  "homepage": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+  "repository": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+  "license": "MIT",
+  "plugins": [
+    {
+      "name": "facility-lease-investigation",
+      "version": "1.0.0",
+      "description": "Government real estate corruption detection methodology. Use when investigating suspiciously high facility lease costs, potential conflicts between lessors and government officials, or market rate deviations.",
+      "author": {
+        "name": "Vera + Coalition",
+        "email": "transparency@coalition.local"
+      },
+      "keywords": [
+        "government",
+        "transparency",
+        "corruption",
+        "real-estate",
+        "procurement",
+        "investigation",
+        "public-accountability"
+      ],
+      "homepage": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+      "repository": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+      "license": "MIT",
+      "source": "./facility-lease-investigation"
+    },
+    {
+      "name": "anti-palantir-osint-pipeline",
+      "version": "1.0.0",
+      "description": "Automated transparency data collection system - surveillance technology reversed to monitor power holders. Includes Legistar scraping, OpenFEC integration, PostgreSQL storage, Neo4j relationship mapping, and Spiderfoot deep investigation.",
+      "author": {
+        "name": "Vera + Coalition",
+        "email": "transparency@coalition.local"
+      },
+      "keywords": [
+        "government",
+        "transparency",
+        "osint",
+        "surveillance-reversal",
+        "anti-palantir",
+        "campaign-finance",
+        "public-accountability"
+      ],
+      "homepage": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+      "repository": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+      "license": "MIT",
+      "source": "./anti-palantir-osint-pipeline"
+    },
+    {
+      "name": "vendor-concentration-analysis",
+      "version": "1.0.0",
+      "description": "Contractor favoritism and bid rigging detection using HHI calculations, threshold gaming detection, campaign finance cross-referencing, and statistical significance testing.",
+      "author": {
+        "name": "Vera + Coalition",
+        "email": "transparency@coalition.local"
+      },
+      "keywords": [
+        "government",
+        "transparency",
+        "procurement",
+        "bid-rigging",
+        "corruption",
+        "investigation",
+        "public-accountability"
+      ],
+      "homepage": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+      "repository": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+      "license": "MIT",
+      "source": "./vendor-concentration-analysis"
+    },
+    {
+      "name": "cost-allocation-plan-review",
+      "version": "1.0.0",
+      "description": "Federal fund fraud detection via CAP manipulation identification. 2 CFR Part 200 compliance testing, allocation base reasonableness assessment, and comparative benchmarking methodology.",
+      "author": {
+        "name": "Vera + Coalition",
+        "email": "transparency@coalition.local"
+      },
+      "keywords": [
+        "government",
+        "transparency",
+        "federal-grants",
+        "fraud-detection",
+        "investigation",
+        "public-accountability"
+      ],
+      "homepage": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+      "repository": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+      "license": "MIT",
+      "source": "./cost-allocation-plan-review"
+    },
+    {
+      "name": "foia-template-generation",
+      "version": "1.0.0",
+      "description": "Optimized public records request generation with jurisdiction-specific law citations, document specificity techniques, fee waiver justifications, and complete example templates.",
+      "author": {
+        "name": "Vera + Coalition",
+        "email": "transparency@coalition.local"
+      },
+      "keywords": [
+        "government",
+        "transparency",
+        "foia",
+        "public-records",
+        "investigation",
+        "public-accountability"
+      ],
+      "homepage": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+      "repository": "https://github.com/HumboldtJoker/coalition-transparency-suite",
+      "license": "MIT",
+      "source": "./foia-template-generation"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Government Transparency",
+      "description": "Tools for investigating government corruption and holding power accountable",
+      "plugins": [
+        "facility-lease-investigation",
+        "anti-palantir-osint-pipeline",
+        "vendor-concentration-analysis",
+        "cost-allocation-plan-review",
+        "foia-template-generation"
+      ]
+    },
+    {
+      "name": "Investigation",
+      "description": "Methodologies for detecting corruption, fraud, and conflicts of interest",
+      "plugins": [
+        "facility-lease-investigation",
+        "vendor-concentration-analysis",
+        "cost-allocation-plan-review"
+      ]
+    },
+    {
+      "name": "OSINT & Data Collection",
+      "description": "Automated data collection and relationship mapping",
+      "plugins": [
+        "anti-palantir-osint-pipeline",
+        "foia-template-generation"
+      ]
+    },
+    {
+      "name": "Public Accountability",
+      "description": "Anti-Palantir principle - point cameras UP the power hierarchy",
+      "plugins": [
+        "facility-lease-investigation",
+        "anti-palantir-osint-pipeline",
+        "vendor-concentration-analysis",
+        "cost-allocation-plan-review",
+        "foia-template-generation"
+      ]
+    }
+  ]
+}
